@@ -84,7 +84,7 @@ DATABASES = {
         'HOST': '127.0.0.1',
         'PORT': '3306',
         'USER': 'root',
-        'PASSWORD': 'root@123',
+        'PASSWORD': 'root@1234',
         # Note : The USER and PASSWORD here should match the ones set in your local MySQL environment.
     }
 }
