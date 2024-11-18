@@ -9,8 +9,6 @@ def index(request):
     return render(request, 'index.html', {})
 
 class MenuItemsView(generics.ListCreateAPIView):
-    # I would uncomment the below line after authentication part is complete
-    # permission_classes = [AllowAny]
     queryset = Menu.objects.all()
     serializer_class = MenuSerializer
 
@@ -19,7 +17,6 @@ class SingleMenuItemView(generics.RetrieveUpdateAPIView, generics.RetrieveDestro
     serializer_class = MenuSerializer
 
 class BookingViewSet(viewsets.ModelViewSet):
-    # I would uncomment the below line after authentication part is complete
-    # permission_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticated]
     queryset = Booking.objects.all()
     serializer_class = BookingSerializer
