@@ -1,6 +1,6 @@
 ## Little Lemon API Restaurant Project - [Meta Back-End Developer Professional Certificate](https://www.coursera.org/professional-certificates/meta-back-end-developer)
 
-## This repository includes the Capstone Project in the [Meta Back-End Developer Certificate](https://www.coursera.org/professional-certificates/meta-back-end-developer) offered by Meta through Coursera. 
+### This repository includes the Capstone Project in the [Meta Back-End Developer Certificate](https://www.coursera.org/professional-certificates/meta-back-end-developer) offered by Meta through Coursera. 
 ---
 ### About the Capstone Project:
 #### The Capstone project enables you to demonstrate multiple skills by solving an authentic real-world problem. You’ll test your abilities in full-stack back-end development in a real-life scenario by composing a Django web app. 
